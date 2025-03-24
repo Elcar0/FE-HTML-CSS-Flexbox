@@ -1,0 +1,185 @@
+/* ------------------ Global ------------------------- */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ------------------ For testing only ------------------------- */
+/* remove before final upload*/
+
+.border-red, .border-blue, .border-green {
+    border: 2px dashed;
+}
+
+.border-red {
+    border-color: red;
+}
+
+.border-blue {
+    border-color: blue;
+}
+
+.border-green {
+    border-color: green;
+}
+
+/* ------------------ Navbar ------------------------- */
+aside {
+    display: flex;
+    flex-basis: 250px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+    flex-basis: 250px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.navbar-org {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.menu-link-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: baseline;
+    gap: 10px;
+}
+
+.navbar .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.buttons li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ------------------ Header ------------------------- */
+
+header {
+    background-image: url("../assets/placeholder-image.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 20%;
+}
+
+.header-content {
+    text-align: center;
+}
+
+/* ------------------ Main content ------------------------- */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: 500px;
+    flex-grow: 5;
+    overflow: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* ------------------ Product cards ------------------------- */
+.product-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 10%;
+    gap: 30px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 260px;
+    gap: 10px;
+}
+
+.product-prize-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product-prize-line img{
+    width: 16px;
+}
+
+.product-image{
+    max-width: 100%;
+}
+
+/* ------------------ Footer ------------------------- */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #383838;
+    padding-block: 10px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
