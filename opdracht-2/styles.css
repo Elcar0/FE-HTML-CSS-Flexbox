@@ -1,3 +1,5 @@
+/* ------------------ Global ------------------------- */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,6 +15,13 @@ body{
     flex-direction: row;
     justify-content: flex-start;
 }
+
+ul {
+    list-style-type: none;
+}
+
+/* ------------------ For testing only ------------------------- */
+/* remove before final upload*/
 
 .border-red, .border-blue, .border-green {
     border: 2px dashed;
@@ -31,13 +40,66 @@ body{
 }
 
 /* ------------------ Navbar ------------------------- */
-aside {
+aside{
+    display:flex;
+    flex-basis:250px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+nav {
     display: flex;
     flex-basis: 250px;
     flex-shrink: 0;
     flex-grow: 1;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.navbar-org{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.menu-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.menu-link-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: baseline;
+    gap: 10px;
+}
+
+.navbar .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.buttons li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /* ------------------ Main content ------------------------- */
 main {
