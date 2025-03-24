@@ -149,7 +149,20 @@ main {
 
 .product-card {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     flex-basis: 260px;
+    gap: 10px;
+}
+
+.product-prize-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.product-prize-line img{
+    width: 16px;
 }
 
 /* ------------------ Footer ------------------------- */
