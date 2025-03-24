@@ -2,24 +2,6 @@ li {
     list-style-type: none;
 }
 
-.navbar-one ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.navbar-two ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.navbar-three {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
 div {
     display: flex;
     flex-direction: row;
@@ -28,11 +10,45 @@ div {
     gap: 10px;
 }
 
+/*////////////////////////
+       Opdracht 1a
+////////////////////////*/
+
+.navbar-one ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*////////////////////////
+       Opdracht 1b
+////////////////////////*/
+
+.navbar-two ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/*////////////////////////
+       Opdracht 1c
+////////////////////////*/
+
+.navbar-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .navbar-three ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
 }
+
+/*////////////////////////
+       Opdracht 1d
+////////////////////////*/
 
 .navbar-four {
     display: flex;
@@ -58,6 +74,10 @@ div {
     justify-content: flex-end;
     gap: 10px;
 }
+
+/*////////////////////////
+       Opdracht 1e
+////////////////////////*/
 
 .navbar-five {
     display: flex;
