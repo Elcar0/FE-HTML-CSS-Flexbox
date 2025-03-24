@@ -10,7 +10,7 @@ html, body {
     height: 100%;
 }
 
-body{
+body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -40,9 +40,9 @@ ul {
 }
 
 /* ------------------ Navbar ------------------------- */
-aside{
-    display:flex;
-    flex-basis:250px;
+aside {
+    display: flex;
+    flex-basis: 250px;
     flex-shrink: 0;
     flex-grow: 1;
 }
@@ -61,25 +61,26 @@ nav {
     gap: 20px;
 }
 
-.navbar-org{
+.navbar-org {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 10px;
 }
 
-.navbar ul{
+.navbar ul {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.menu-links{
+.menu-links {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
-.menu-link-content{
+
+.menu-link-content {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -95,14 +96,33 @@ nav {
     flex-grow: 1;
 }
 
-.buttons li{
+.buttons li {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
+/* ------------------ Header ------------------------- */
+
+header {
+    background-image: url("../assets/placeholder-image.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10% 20%;
+}
+
+.header-content {
+    text-align: center;
+}
+
 /* ------------------ Main content ------------------------- */
-main {
+.content-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -111,3 +131,38 @@ main {
     overflow: auto;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+/* ------------------ Product cards ------------------------- */
+.product-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 10%;
+    gap: 30px;
+}
+
+.product-card {
+    display: flex;
+    flex-basis: 260px;
+}
+
+/* ------------------ Footer ------------------------- */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #383838;
+    padding-block: 10px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
