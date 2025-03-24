@@ -165,6 +165,10 @@ main {
     width: 16px;
 }
 
+.product-image{
+    max-width: 100%;
+}
+
 /* ------------------ Footer ------------------------- */
 
 .footer {
